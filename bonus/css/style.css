@@ -33,9 +33,11 @@ header {
 }
 
 #cornice {
-  background-color: white;
-  width: auto;
-}
+  height: 300px;
+  background: url(../img/nat.png);
+  background-size: cover;
+  border: 10px solid white;
+  }
 
 img {
   width: 90%; height: auto;
