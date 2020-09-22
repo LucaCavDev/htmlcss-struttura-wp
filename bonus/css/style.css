@@ -33,7 +33,7 @@ header {
 }
 
 #cornice {
-  height: 300px;
+  height: 400px;
   background: url(../img/nat.png);
   background-size: cover;
   border: 10px solid white;
@@ -50,6 +50,10 @@ nav {
 
 nav > a {
   color: white;
+}
+
+a {
+  text-decoration: none;
 }
 
 
@@ -94,9 +98,17 @@ aside a {
 
 /* footer */
 footer {
-  height: 200px;
+  height: 100px;
   background-color: #fff;
   border-radius: 5px;
   color: grey;
   text-align: center;
+}
+
+#firma-footer {
+  font-style: italic;
+}
+
+.footer-icon {
+  height: 50px;
 }
