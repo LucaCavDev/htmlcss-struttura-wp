@@ -1,0 +1,68 @@
+/*regole generali*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ho inizialmente dato un backgroundcolor a body e container nella fase di costruzione della pagina per vedere immediatamente gli accadimenti in seguito alle varie modifiche */
+body {
+  /* inizio debug */
+  /* background-color: red; */
+  /* fine debug */
+  margin: 10px;
+}
+
+#container {
+  /* inizio debug */
+  /* background-color: black; */
+  /* fine debug */
+}
+
+/* header */
+header {
+
+  background-color: yellow;
+  height: 200px;
+  margin-bottom: 10px;
+  /* debug */
+
+  /* fine debug */
+}
+
+/* parte principale di pagina, come per body e container avevo dato un colore allo sfondo per comodità visiva in fase di costruzione */
+main {
+  /* debug */
+  /* background-color: green; */
+  /* fine debug */
+}
+
+.rosino {
+  float: left;
+  width: 25%;
+  margin-bottom: 10px;
+  background-color: pink;
+  height: 200px;
+}
+
+.violetto {
+  float: left;
+  width: 46%;
+  margin: 0 2%;
+  background-color: purple;
+  height: 440px;
+}
+
+
+/* separo il footer dal main con un marin top */
+footer {
+  background-color: lightblue;
+  height: 100px;
+  margin-top: 10px;
+}

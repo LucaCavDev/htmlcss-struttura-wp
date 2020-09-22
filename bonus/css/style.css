@@ -1,0 +1,100 @@
+/*regole generali*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* pagina */
+#container {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background-image: url("../img/wood.jpg");
+  font-family: Verdana, Arial;
+}
+
+
+/* header */
+header {
+  margin-bottom: 20px;
+  /* debug */
+  /* height: 200px; */
+  /* background-color: white; */
+  /* debug */
+}
+
+#cornice {
+  background-color: white;
+  width: auto;
+}
+
+img {
+  width: 90%; height: auto;
+}
+
+
+nav {
+  background-color: grey;
+  color: white;
+}
+
+nav > a {
+  color: white;
+}
+
+
+/* parte principale */
+main {
+  /* debug */
+  /* background-color: yellow; */
+  /* fine debug */
+}
+
+aside {
+  float: left;
+  width: 20%;
+  /* debug */
+  /* height: 200px; */
+  /* background-color: lightblue; */
+  /* fine debug */
+}
+
+section {
+  float: left;
+  width: 50%;
+  margin: 0 5%;
+  /* debug */
+  /* height: 400px;
+  background-color: blue; */
+}
+
+aside a {
+  color: green;
+}
+
+.white-box {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #000;
+}
+
+/* footer */
+footer {
+  height: 200px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: grey;
+  text-align: center;
+}
